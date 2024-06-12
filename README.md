@@ -7,5 +7,30 @@ This is a simple feedback management system built with Node.js, Express, and Rea
 
 ### Backend
 1. Navigate to the backend directory:
-   ```bash
+   ```bash'''
    cd feedback-management-system
+2.Install dependencies:
+  
+  npm install
+3.Start the server:
+
+  npm start
+###Frontend
+1.Navigate to the frontend directory:
+
+ cd feedback-frontend
+2.Install dependencies:
+ 
+  npm install
+3.Start the React application:
+
+  npm start
+
+##Endpoints
+Backend API
+GET /feedback: Retrieve all feedback entries
+POST /feedback: Submit new feedback
+Notes:
+This project uses an in-memory array to store feedback entries.
+
+
